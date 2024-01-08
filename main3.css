@@ -37,121 +37,11 @@ nav a:hover {
   color: white;
 }
 
-header {
-  margin-bottom: 100px;
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
-header .hc1 {
-  width: 45%;
-  margin-left: 100px;
-}
-header .hc1 h1 {
-  font-family: Heebo;
-  font-size: 44px;
-  font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 0px;
-  text-align: left;
-  color: #21243D;
-  margin-bottom: 25px;
-}
-header .hc1 p {
-  font-family: Heebo;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0px;
-  text-align: left;
-  color: #21243D;
-  margin-bottom: 25px;
-}
-header .hc1 button {
-  padding: 5px 10px 5px 10px;
-  background: #FF6464;
-  color: white;
-}
-header .hc2 {
-  width: 45%;
-}
-header .hc2 img {
-  width: 50%;
-  margin-left: 100px;
-}
-
-.c {
-  background: #EDF7FA;
-  padding-bottom: 35px;
-  width: 100%;
-}
-.c h4 {
-  margin-left: 123px;
-  font-family: Heebo;
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 60px;
-  letter-spacing: 0px;
-  text-align: left;
-  color: #21243D;
-}
-.c .cm {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
-.c .cm .c1 {
-  padding: 10px 25px 15px 25px;
-  width: 32%;
-  background: #FFFFFF;
-  box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.2509803922);
-}
-.c .cm .c1 h1 {
-  font-family: Heebo;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 38px;
-  letter-spacing: 0px;
-  text-align: left;
-  color: #21243D;
-  margin-bottom: 20px;
-}
-.c .cm .c1 .c1t {
-  width: 100%;
-  display: flex;
-  margin-bottom: 20px;
-}
-.c .cm .c1 .c1t h3 {
-  font-family: Heebo;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 0px;
-  text-align: left;
-  color: #21243D;
-}
-.c .cm .c1 .c1t hr {
-  background: #000000;
-  height: 21px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-.c .cm .c1 p {
-  font-family: Heebo;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0px;
-  text-align: left;
-  color: #21243D;
-}
-
 main {
   width: 100%;
 }
 main h4 {
-  margin-left: 120px;
+  margin-left: 20px;
   font-family: Heebo;
   font-size: 22px;
   font-weight: 400;
@@ -161,20 +51,15 @@ main h4 {
   color: #21243D;
 }
 main .mc {
-  margin-left: 120px;
-  display: flex;
-  gap: 20px;
+  width: 55%;
+  margin: auto;
   margin-bottom: 5%;
 }
-main .mc .mc1 {
-  width: 25%;
-}
-main .mc .mc1 img {
+main .mc img {
   width: 100%;
-  height: 200px;
 }
 main .mc .mc2 {
-  width: 50%;
+  width: 100%;
 }
 main .mc .mc2 h1 {
   font-family: Heebo;
@@ -219,6 +104,15 @@ main .mc .mc2 p {
   letter-spacing: 0px;
   text-align: left;
   color: #21243D;
+}
+
+.main {
+  width: 55%;
+  margin: auto;
+}
+.main img {
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 footer {
@@ -295,32 +189,29 @@ footer a {
   }
   main {
     width: 100%;
-    position: relative;
-    right: 60px;
   }
   main .mc {
-    flex-wrap: wrap;
     width: 100%;
     position: relative;
-    right: 45px;
+    left: 20px;
   }
-  main .mc .mc1 {
+  main .mc1 {
     width: 100%;
   }
-  main .mc .mc2 {
+  main .mc2 {
     width: 100%;
   }
-  footer {
-    width: 100%;
-  }
-  footer .f1 {
-    position: relative;
-    left: 10px;
-    width: 100%;
-  }
-  footer .f2 {
-    width: 90%;
-    position: relative;
-    right: 365px;
-  }
-}/*# sourceMappingURL=main.css.map */
+}
+footer {
+  width: 100%;
+}
+footer .f1 {
+  position: relative;
+  left: 10px;
+  width: 100%;
+}
+footer .f2 {
+  width: 90%;
+  position: relative;
+  right: 365px;
+}/*# sourceMappingURL=main3.css.map */
