@@ -124,31 +124,27 @@ main{
         margin-bottom: 30px;
     }
 }
-
 footer{
-    margin-top: 150px;
-    margin-bottom: 50px;
-    width: 100%;
-    .f1{
-            width: 15%;
-            display: flex;
-            justify-content: space-between;
-            margin: auto;
-            margin-bottom: 20px;
-    }
-    i{
-            font-size: 30px;
-    }
-    .f2{
-            width: 50%;
-            margin-left: 400px;
-    }
-    a{
-            text-decoration: none;
-            color: #21243D;
-    }
-}
+        padding-top: 100px;
+        width: 55%;
+        margin: auto;
+        .f1{    
+                padding-bottom: 20px;
+                 margin: auto;
+                width: 40%;
+                display: flex;
+                justify-content: space-between;
+                i{
+                        font-size: 30px;
+                }
+        }
+        .f2{
+                margin-left: 180px;
+             
+        }
 
+
+}
 
 
 
@@ -157,114 +153,41 @@ footer{
     nav{
             display: none;
     }
-    header{
-            width: 100%;
-            flex-wrap: wrap;
-            .hc1{
-                    width: 100%;
-                    h1{
-                            position: relative;
-                            right: 25px;
-                    text-align: center;
-                    }
-                    p{
-                            position: relative;
-                            right: 25px;
-                            text-align: center;
-                    }
-                    button{
-                            position: relative;
-                            right: 15px;
-                            width: 90%;
-                            margin: auto;
-                    }
-            }
-            .hc2{
-                    margin: auto;
-                    width: 100%;
-                    img{
-                            position: relative;
-                            right: 10px;
-                            width: 60%;
-                            margin-top:20px;
-                    }
-            }
-    }
+    
 
-    .c{
-            width: 110%;
-            .cm{
-                    width: 100%;
-                    flex-wrap: wrap;
-                    .c1{
-                            margin: auto;
-                            width: 80%;
-                    }
-            }
-    }
+    
     main{
 
             width: 100%;
           
                                     .mc{
                                         width: 100%;
-                                        position: relative;
-
-                                        left:  20px;
+                                        
                                     }
                     .mc1{
                             width: 100%;
                     }
+                                                                        
                     .mc2{
                             width: 100%;
                     }
             }
-    }
+    
 
     footer{
             width: 100%;
             .f1{
                     position: relative;
                     left: 10px;
-                    width: 100%;
+                  
             }
             .f2{
-                    width: 90%;
-                    position: relative;
-                    right: 365px;
-                    
+                   width: 80%;
+                   position: relative;
+                   right: 120px; 
             }
-    }
-
+        }
+           
     
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}

@@ -314,13 +314,14 @@ footer a {
     width: 100%;
   }
   footer .f1 {
-    position: relative;
-    left: 10px;
-    width: 100%;
+    margin: auto;
+    width: 90%;
+    padding-bottom: 20px;
   }
   footer .f2 {
-    width: 90%;
     position: relative;
-    right: 365px;
+    left: 40px;
+    width: 90%;
+    margin: auto;
   }
 }/*# sourceMappingURL=main.css.map */

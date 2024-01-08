@@ -116,84 +116,33 @@ main .mc .mc2 p {
 }
 
 footer {
-  margin-top: 150px;
-  margin-bottom: 50px;
-  width: 100%;
+  padding-top: 100px;
+  width: 55%;
+  margin: auto;
 }
 footer .f1 {
-  width: 15%;
+  padding-bottom: 20px;
+  margin: auto;
+  width: 40%;
   display: flex;
   justify-content: space-between;
-  margin: auto;
-  margin-bottom: 20px;
 }
-footer i {
+footer .f1 i {
   font-size: 30px;
 }
 footer .f2 {
-  width: 50%;
-  margin-left: 400px;
-}
-footer a {
-  text-decoration: none;
-  color: #21243D;
+  margin-left: 180px;
 }
 
 @media (max-width: 736px) {
   nav {
     display: none;
   }
-  header {
-    width: 100%;
-    flex-wrap: wrap;
-  }
-  header .hc1 {
-    width: 100%;
-  }
-  header .hc1 h1 {
-    position: relative;
-    right: 25px;
-    text-align: center;
-  }
-  header .hc1 p {
-    position: relative;
-    right: 25px;
-    text-align: center;
-  }
-  header .hc1 button {
-    position: relative;
-    right: 15px;
-    width: 90%;
-    margin: auto;
-  }
-  header .hc2 {
-    margin: auto;
-    width: 100%;
-  }
-  header .hc2 img {
-    position: relative;
-    right: 10px;
-    width: 60%;
-    margin-top: 20px;
-  }
-  .c {
-    width: 110%;
-  }
-  .c .cm {
-    width: 100%;
-    flex-wrap: wrap;
-  }
-  .c .cm .c1 {
-    margin: auto;
-    width: 80%;
-  }
   main {
     width: 100%;
   }
   main .mc {
     width: 100%;
-    position: relative;
-    left: 20px;
   }
   main .mc1 {
     width: 100%;
@@ -201,17 +150,16 @@ footer a {
   main .mc2 {
     width: 100%;
   }
-}
-footer {
-  width: 100%;
-}
-footer .f1 {
-  position: relative;
-  left: 10px;
-  width: 100%;
-}
-footer .f2 {
-  width: 90%;
-  position: relative;
-  right: 365px;
+  footer {
+    width: 100%;
+  }
+  footer .f1 {
+    position: relative;
+    left: 10px;
+  }
+  footer .f2 {
+    width: 80%;
+    position: relative;
+    right: 120px;
+  }
 }/*# sourceMappingURL=main3.css.map */

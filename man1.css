@@ -130,7 +130,7 @@ footer a {
     display: none;
   }
   .c {
-    width: 110%;
+    width: 100%;
   }
   .c .cm {
     width: 100%;
@@ -144,13 +144,16 @@ footer a {
     width: 100%;
   }
   footer .f1 {
-    width: 40%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: auto;
+    padding-bottom: 50px;
   }
   footer .f2 {
-    width: 40%;
+    position: relative;
+    left: 67px;
+    width: 100%;
     margin: auto;
   }
 }/*# sourceMappingURL=man1.css.map */

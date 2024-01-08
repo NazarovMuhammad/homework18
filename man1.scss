@@ -142,7 +142,7 @@ footer{
    
 
     .c{
-            width: 110%;
+            width: 100%;
             .cm{
                     width: 100%;
                     flex-wrap: wrap;
@@ -157,13 +157,16 @@ footer{
     footer{
             width: 100%;
             .f1{
-                    width: 40%;
+                    width: 100%;
                     display: flex;
-                    justify-content: space-between;
+                    justify-content: space-around;
                     margin: auto;
+                    padding-bottom: 50px;
             }
             .f2{
-                    width: 40%;
+                position: relative;
+                left: 67px;
+                    width: 100%;
                     margin: auto;
                     
             }

@@ -40,7 +40,7 @@ nav a:hover {
 main {
   width: 100%;
 }
-main h1 {
+main h2 {
   margin-left: 120px;
   margin-bottom: 25px;
   font-family: Heebo;
@@ -82,7 +82,7 @@ main .mc .mc2 .mct {
   display: flex;
   margin-bottom: 20px;
 }
-main .mc .mc2 .mct h2 {
+main .mc .mc2 .mct h4 {
   font-family: Heebo;
   font-size: 18px;
   font-weight: 900;
@@ -157,19 +157,26 @@ footer a {
     height: 500px;
   }
   main .mc .mc2 {
+    position: relative;
+    right: 55px;
     width: 100%;
   }
   footer {
     width: 100%;
   }
   footer .f1 {
-    width: 40%;
+    position: relative;
+    left: 60px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: auto;
+    padding-bottom: 30px;
   }
   footer .f2 {
-    width: 40%;
+    position: relative;
+    left: 120px;
+    width: 100%;
     margin: auto;
   }
 }/*# sourceMappingURL=main2.css.map */

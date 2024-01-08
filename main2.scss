@@ -39,7 +39,7 @@ nav{
 main{
     width: 100%;
    
-    h1{
+    h2{
             margin-left: 120px;  
              margin-bottom: 25px;
             font-family: Heebo;
@@ -81,7 +81,7 @@ main{
                             width: 100%;
                             display: flex;
                             margin-bottom: 20px;
-                            h2{
+                            h4{
                                     font-family: Heebo;
                                     font-size: 18px;
                                     font-weight: 900;
@@ -173,6 +173,8 @@ footer{
                             
                     }
                     .mc2{
+                        position: relative;
+                        right: 55px;
                             width: 100%;
                            
                     }
@@ -182,20 +184,28 @@ footer{
     footer{
             width: 100%;
             .f1{
-                width: 40%;
+                position: relative;
+                left: 60px;
+                width: 100%;
                 display: flex;
-                justify-content: space-between;
+                justify-content: space-around;
                     margin: auto;
+                    padding-bottom: 30px;
             }
             .f2{
-                width: 40%;
+                position: relative;
+                left: 120px;
+                width: 100%;
+                
+                
                     margin: auto;
+            }
                     
             }
     }
 
     
-}
+
 
 
 
